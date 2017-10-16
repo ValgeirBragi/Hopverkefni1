@@ -23,13 +23,23 @@ h3 {
   font-size: 2em;
 }
 
-header {
+.header--index {
   display:flex;
   flex-direction: column;
   background: url(Myndir/bg.jpg);
   background-size: cover;
   background-position: 0 0;
   text-align: center;
+}
+
+.header--about {
+  display:flex;
+  flex-direction: column;
+  background: url(Myndir/bg-subpage.jpg);
+  background-size: cover;
+  background-position: 0 0;
+  text-align: center;
+  color: white;
 }
 
 header .menu {
