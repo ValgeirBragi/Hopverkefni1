@@ -12,8 +12,8 @@ header {
   flex-direction: column;
   background: url(Myndir/bg.jpg);
   background-size: cover;
+  background-position: 0 0;
   text-align: center;
-  color: white;
 }
 
 header .menu {
@@ -21,15 +21,15 @@ header .menu {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  color: white;
 }
 
 .text--menu {
   color: white;
+  font-size: 2em;
+  text-decoration: none;
 }
 
-header img{
-  margin-top: -5em;
-  width: 100%;
-  height: 50%;
-  z-index: -5;
+.header--title {
+  font-size: 3em;
 }
