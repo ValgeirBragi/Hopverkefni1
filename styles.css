@@ -1,7 +1,6 @@
 body {
   font-family: 'Open Sans' , sans-serif;
   font-size: 16px;
-  overflow: hidden;
 }
 
 h1 {
@@ -14,10 +13,6 @@ h2 {
 
 h3 {
   font-size: 3em;
-}
-
-h4 {
-  font-size: 2.25;
 }
 
 .heading {
@@ -54,4 +49,19 @@ header .menu {
 
 .list--check {
   list-style: url('check.svg');
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.5em;
+  text-align:center;
+}
+
+.askrift {
+  font-size: 2em;
+}
+.img--profile {
+  max-width: none;
+  border-radius: 50%;
 }
