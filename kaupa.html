@@ -17,52 +17,79 @@
     </header>
     <main>
       <form>
-        <div>
-        Persónuupplýsingar
-        Nafn: <input type="text" name="nafn">
-        Kennitala: <input type="text" name="kennitala" placeholder="12456-7890">
-        Kyn: <input type="radio" name="gender" value="kona"> Kona
-        <input type="radio" name="gender" value="karl"> Karl
-        <input type="radio" name="gender" value="annað"> Annað
-        Sími: <input type="text" name="simanumer" placeholder="+354 812 3456">
-        Heimilisfang: <input type="text" name="heimilisfang">
-        <input type="checkbox" name="postlisti" checked>Skrá mig á póstlista
-        </div>
+        <fieldset>
+        <legend>Persónuupplýsingar</legend>
+        <p>
+          <label for="nafn">Nafn:</label><br>
+          <input type="text" name="nafn">
+        </p>
+        <p>
+          <label>Kennitala:</label><br>
+          <input type="text" name="kennitala" placeholder="12456-7890">
+        </p>
+        <p>
+          <label>Kyn:</label><br>
+          <input type="radio" name="gender" value="kona"><label>Kona</label><br>
+          <input type="radio" name="gender" value="karl"><label>Karl</label><br>
+          <input type="radio" name="gender" value="annað"><label>Annað</label>
+        </p>
+        <p>
+          <label>Sími:</label><br>
+          <input type="text" name="simanumer" placeholder="+354 812 3456">
+        </p>
+        <p>
+          <label>Heimilisfang:</label><br>
+          <input type="text" name="heimilisfang">
+        </p>
+        <p>
+          <input type="checkbox" name="postlisti" checked><label>Skrá mig á póstlista</label>
+        </p>
+        </fieldset>
 
-        <div>
-        Greiðsluupplýsingar
-        Greiða með: 
-        <select name="greidamed">
-          <option value="kredit" selected>Kreditkorti</option>
-          <option value="debit">Debitkorti</option>
-        </select>
-        Nafn á korti: <input type="text" name="firstname">
-        Kortanúmer: <input type="text" name="firstname" placeholder="5999-9999-9999-9999">
-        Gildistími: 
-        Mán 
-        <select>
-          <option value="01">01</option>
-          <option value="02">02</option>
-          <option value="03">03</option>
-          <option value="04">04</option>
-          <option value="05">05</option>
-          <option value="06">06</option>
-          <option value="07">07</option>
-          <option value="08">08</option>
-          <option value="09">09</option>
-          <option value="10">10</option>
-          <option value="11">11</option>
-          <option value="12">12</option>
-        </select>
-        Ár
-        <select>
-          <option value="2017">2017</option>
-          <option value="2018">2018</option>
-          <option value="2019">2019</option>
-          <option value="2020">2020</option>
-          <option value="2021">2021</option>
-        </select>
-        </div>
+        <fieldset>
+        <legend>Greiðsluupplýsingar</legend>
+        <p>
+          <label>Greiða með:</label><br>
+          <select name="greidamed">
+            <option value="kredit" selected>Kreditkorti</option>
+            <option value="debit">Debitkorti</option>
+          </select>
+        </p>
+        <p>
+          <label>Nafn á korti:</label><br>
+          <input type="text" name="firstname">
+        </p>
+        <p>
+          <label>Kortanúmer:</label><br>
+          <input type="text" name="firstname" placeholder="5999-9999-9999-9999">
+        </p>
+        <p>
+          <label>Gildistími:</label><br>
+          <label>Mán</label> 
+          <select>
+            <option value="01">01</option>
+            <option value="02">02</option>
+            <option value="03">03</option>
+            <option value="04">04</option>
+            <option value="05">05</option>
+            <option value="06">06</option>
+            <option value="07">07</option>
+            <option value="08">08</option>
+            <option value="09">09</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+          </select>
+          <label>Ár</label>
+          <select>
+            <option value="2017">2017</option>
+            <option value="2018">2018</option>
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+          </select>
+        </p>
+        </fieldset>
         <input type="submit" value="Panta">
       </form>
     </main>
