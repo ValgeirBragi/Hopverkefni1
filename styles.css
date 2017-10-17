@@ -50,7 +50,6 @@ h3 {
 }
 
 header .menu {
-<<<<<<< HEAD
   background-color:rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: space-between;
@@ -65,24 +64,18 @@ header .menu {
 
 
 .heading--menu {
-  margin: 0px;
-=======
-  background-color:rgba(0, 0, 0, 0.7);
   color: white;
-  position:fixed;
   width:100%;
-  top:0;
-  overflow:hidden;
-  display:flex;
-  padding:0.5em;
-}
-
-.heading--menu{
   font-size:1.5em;
   text-align:left;
->>>>>>> cd20acb82e4e2d952eaf48e5b371b87b60bb135f
+  padding:0px;
+  margin: 0px;
 }
 
+.menu--links {
+  display: flex;
+  flex-direction: row;
+}
 
 .button {
   color: #eee;
@@ -95,7 +88,6 @@ header .menu {
   border-radius: 5%;
 }
 
-<<<<<<< HEAD
 .button--menu {
   font-size: 0.75em;
   display: none;
@@ -115,9 +107,7 @@ header .menu {
 .text--menu{
   color: white;
   text-decoration: none;
-  padding: 0.5em;
-  border-radius: 5%;
-  background-color: #666;
+
 }
 
 fieldset{
