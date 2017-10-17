@@ -54,9 +54,12 @@ header .menu {
   padding-top: none;
 }
 
+
+
 .heading--menu {
   margin: 0px;
 }
+
 
 .button {
   color: #eee;
@@ -65,8 +68,13 @@ header .menu {
   text-align: center;
   font-size: 2em;
   border: none;
-  padding: 0.65em;
+  padding: 0.5em;
   border-radius: 5%;
+}
+
+.button--menu {
+  font-size: 0.75em;
+  display: none;
 }
 
 .text--menu {
@@ -128,4 +136,14 @@ footer {
   text-align: center;
   border-top: 1px solid white;
   padding: 1em;
+}
+
+@media (min-width: 600px) {
+  header .menu {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .button--menu {
+    display: inline;
+  }
 }
