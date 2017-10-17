@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <header>
+    <header class="header--about">
       <div class="menu">
         <h1 class="heading heading--menu">Fooþjónustan</h1>
         <a class="text text--menu" href="about.html">Um</a>
+        <a class="text text--menu" href="kaupa.html">Kaupa</a>
       </div>
       <h2 class="heading">Kaupa</h2>
     </header>
@@ -52,7 +53,8 @@
           <label>Greiða með:</label><br>
           <select name="greidamed">
             <option value="kredit" selected>Kreditkorti</option>
-            <option value="debit">Debitkorti</option>
+            <option value="millifaersla">Millifærsla</option>
+            <option value="reidufe">Reiðufé</option>
           </select>
         </p>
         <p>
@@ -90,18 +92,24 @@
           </select>
         </p>
         </fieldset>
-        <input type="submit" value="Panta">
       </form>
+      <button class="button--submit">Panta</button>
     </main>
     <footer>
-      <ul class="list list--footer">
-        <li>Fooþjónustan</li>
-        <li>123-4567</li>
-        <li>Opið 12-13 alla daga</li>
-        <li>Bargata 1</li>
-        <li>900 Foobar</li>
-      </ul>
-      <a>© Fooþjónustan 2017</a>
+      <nav class="footer--info">
+        <nav class="text--info"
+          <a>Fooþjónustan</a>
+          <a>123-4567</a>
+        </nav>
+        <nav class="text--info">
+          <a>Opið 12-13 alla daga</a>
+          <a>Bargata 1</a>
+          <a>900 Foobar</a>
+        </nav>
+      </nav>
+      <nav class="trademark">
+        <a>© Fooþjónustan 2017</a>
+      </nav>
     </footer>
-  </body></li>
+  </body>
 </html>
