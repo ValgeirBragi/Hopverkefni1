@@ -11,10 +11,12 @@ h1 {
 
 h2 {
   font-size: 3.75em;
+  margin: 1px;
 }
 
 h3 {
   font-size: 3em;
+  margin: 1px;
 }
 
 .heading {
@@ -22,8 +24,12 @@ h3 {
 }
 
 .heading--smallheader {
-  font-size: 2em;
+  font-size: 1.75em;
   text-align: left;
+}
+
+.heading--header {
+  font-size: 3.25em;
 }
 
 .header--index {
@@ -88,6 +94,10 @@ header .menu {
   margin-left: auto;
 }
 
+.button--header {
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
 .wrapper{
   text-align: center;
   padding-bottom:2em;
@@ -143,16 +153,24 @@ border:none;
 .profile {
   display: flex;
   flex-direction: column;
-  font-size: 0.5em;
+  font-size: 0.4em;
   text-align:center;
+  margin-bottom: 50px;
+}
+
+.quote {
+  font-style: italic;
 }
 
 .askrift {
   font-size: 2em;
 }
+
+
+
 .img--profile img{
-  max-width: none;
   border-radius: 50%;
+  max-width: 90%;
 }
 
 .hype {
@@ -161,6 +179,7 @@ border:none;
 
 .hype--text {
   font-size: 1.5em;
+  font-style: bold;
 }
 
 .button--large {
