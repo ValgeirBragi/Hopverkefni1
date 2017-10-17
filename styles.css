@@ -142,6 +142,10 @@ border:none;
 .heading--list {
   font-size: 1.5em;
 }
+
+.people {
+  margin-bottom: 100px;
+}
 .profile {
   display: flex;
   flex-direction: column;
@@ -158,7 +162,7 @@ border:none;
 }
 
 .hype {
-  font-size: 2em;
+  font-size: 1.5em;
   text-align: center;
 }
 
