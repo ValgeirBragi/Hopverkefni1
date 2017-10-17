@@ -61,8 +61,6 @@ header .menu {
   padding-top: none;
 }
 
-
-
 .heading--menu {
   color: white;
   width:100%;
@@ -86,6 +84,13 @@ header .menu {
   border: none;
   padding: 0.5em;
   border-radius: 5%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.wrapper{
+  text-align: center;
+  padding-bottom:2em;
 }
 
 .button--menu {
@@ -93,17 +98,6 @@ header .menu {
   display: none;
 }
 
-.button--submit{
-  color: #eee;
-  background-color: #666;
-  text-decoration: none;
-  text-align: center;
-  font-size: 1em;
-  border: none;
-  padding: 0.5em 5em 0.5em 5em;
-  border-radius: 5%;
-  margin:0 auto;
-}
 .text--menu{
   color: white;
   text-decoration: none;
@@ -168,6 +162,17 @@ footer {
   padding: 1em;
 }
 
+form{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  margin:3em;
+}
+
+input[type="text"], select{
+  width:100%;
+}
+
 @media (min-width: 600px) {
   header .menu {
     padding-top: 0px;
@@ -175,5 +180,11 @@ footer {
   }
   .button--menu {
     display: inline;
+  }
+  form{
+    flex-direction: row;
+  }
+  fieldset{
+    width:50%;
   }
 }
