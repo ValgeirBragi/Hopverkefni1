@@ -128,13 +128,13 @@ border:none;
 }
 
 .hype {
-  font-size: 2em;
   text-align: center;
 }
 
 .button--large {
   padding-left: 4em;
   padding-right: 4em;
+  margin-bottom: 1em;
 }
 
 footer {
