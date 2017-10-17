@@ -114,10 +114,19 @@ fieldset{
 border:none;
 }
 
+
+.list--main {
+  margin: 1em;
+}
 .list--check {
   list-style: url('check.svg');
+  margin: auto;
+  text-align: left;
 }
 
+.heading--list {
+  font-size: 1.5em;
+}
 .profile {
   display: flex;
   flex-direction: column;
@@ -176,4 +185,8 @@ footer {
   .button--menu {
     display: inline;
   }
+}
+
+@media (min-width: 1200px) {
+
 }
