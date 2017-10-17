@@ -45,9 +45,17 @@ h3 {
 header .menu {
   background-color:rgba(0, 0, 0, 0.5);
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   color: white;
+  font-size: 1.5em;
+  flex-direction: row;
+  padding: 0.5em;
+  padding-top: none;
+}
+
+.heading--menu {
+  margin: 0px;
 }
 
 .button {
