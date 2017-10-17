@@ -149,6 +149,9 @@ border:none;
 
 .people {
   margin-bottom: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .profile {
   display: flex;
@@ -253,5 +256,21 @@ input[type="text"], select{
   .about--wrapper{
     width:50%;
     float:right;
+  }
+
+  .profile {
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .frontpage--top {
+    flex-direction: row;
+  }
+  .people {
+    flex-direction: row;
+  }
+  .profile {
+    max-width: 30%;
   }
 }
