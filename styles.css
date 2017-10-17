@@ -173,6 +173,18 @@ input[type="text"], select{
   width:100%;
 }
 
+.text--wrapper{
+  padding:1em;
+}
+
+.about--wrapper {
+  margin:1.5em;
+}
+.about--quote{
+  font-size:2em;
+  margin:1em;
+}
+
 @media (min-width: 600px) {
   header .menu {
     padding-top: 0px;
@@ -187,4 +199,5 @@ input[type="text"], select{
   fieldset{
     width:50%;
   }
+  
 }
